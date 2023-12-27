@@ -1,0 +1,6 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 6.25rem;
+  font-family: "Roboto Condensed", sans-serif;
+}

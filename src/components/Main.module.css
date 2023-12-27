@@ -1,0 +1,134 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.div {
+  width: 1000px;
+  height: 600px;
+
+  display: flex;
+  justify-content: space-evenly;
+
+  border-radius: 8px;
+  background: var(--nile-blue);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  padding: 5rem;
+}
+
+.article div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.article div input {
+  width: 230px;
+
+  border: 0;
+  border-bottom: 2px solid var(--bismark);
+
+  font-size: 1rem;
+
+  color: var(--white);
+  background: transparent;
+
+  &:focus {
+    transition: 0.2s;
+    box-shadow: none;
+    border-color: var(--royal-purple);
+  }
+}
+
+.article table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.article table th {
+  padding: 1rem;
+
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1rem;
+
+  color: var(--white);
+  background: var(--royal-purple);
+
+  &:first-child {
+    border-top-left-radius: 8px;
+    padding-left: 1.5rem;
+  }
+
+  &:last-child {
+    border-top-right-radius: 8px;
+    padding-right: 1.5rem;
+  }
+}
+
+.article table td {
+  padding: 1rem;
+
+  line-height: 1.6;
+  text-align: center;
+  font-size: 1rem;
+
+  border-top: 4px solid var(--nile-blue);
+  background: var(--bismark);
+
+  &:last-child {
+    padding-left: 1.5rem;
+  }
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 5rem;
+}
+
+.aside input {
+  width: 130px;
+
+  border: 0;
+  border-bottom: 2px solid var(--bismark);
+
+  text-align: center;
+  font-size: 1.5rem;
+
+  color: var(--white);
+  background: transparent;
+
+  &:focus {
+    transition: 0.2s;
+    box-shadow: none;
+    border-color: var(--royal-purple);
+  }
+}
+
+.aside button {
+  width: 100%;
+  height: 50px;
+
+  border: 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+
+  color: var(--white);
+  background: var(--royal-purple);
+}
+
+.aside button:hover {
+  transition: 0.2s;
+  background-color: var(--tekhetel);
+}

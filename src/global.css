@@ -1,0 +1,29 @@
+:root {
+    --auburn: #AB222E;
+    --bismark: #436372;
+    --echo-blue: #A3BBC8;
+    --nile-blue: #243F4D;
+    --royal-purple: #624CAB;
+    --sea-green: #00875F;
+    --tekhetel: #49397F;
+    --white: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:focus {
+    outline: 0;
+    box-shadow: 0 0 0 var(--bismark);
+}
+
+body {
+    margin-bottom: 7.5rem;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: var(--white);
+    background: linear-gradient(180deg, #243F4D 0%, #A3BBC8 100.98%);
+}
