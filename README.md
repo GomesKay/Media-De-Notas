@@ -3,7 +3,7 @@
 
 ## 🚀 Tecnologias
 Este projeto foi desenvolvido com:
-* HTML, CSS & JavaScript
+* React.JS
 
 ## 💻 Projeto
 Neste projeto foi desenvolvido uma Média de Notas, que vai tirar a média de 3 notas que forem inseridas pelo usuário.
