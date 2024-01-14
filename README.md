@@ -9,5 +9,4 @@ Este projeto foi desenvolvido com:
 Neste projeto foi desenvolvido uma Média de Notas, que vai tirar a média de 3 notas que forem inseridas pelo usuário.
 
 ## 🖌️ Figma
-Link para os modelos deste projeto [Média de Notas]()
-
+Link para os modelos deste projeto [Média de Notas]().
