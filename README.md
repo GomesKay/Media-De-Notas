@@ -1,8 +1,13 @@
-# React + Vite
+# 📖 Média de Notas
+![]()
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias
+Este projeto foi desenvolvido com:
+* HTML, CSS & JavaScript
 
-Currently, two official plugins are available:
+## 💻 Projeto
+Neste projeto foi desenvolvido uma Média de Notas, que vai tirar a média de 3 notas que forem inseridas pelo usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🖌️ Figma
+Link para os modelos deste projeto [Média de Notas]()
+
